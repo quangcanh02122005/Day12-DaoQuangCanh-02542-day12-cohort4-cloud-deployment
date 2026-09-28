@@ -7,7 +7,7 @@
 [build]
 # Railway tự detect Dockerfile nếu có.
 # Nếu không có Dockerfile, dùng Nixpacks (auto-detect Python).
-builder = "NIXPACKS"
+builder = "RAILPACK"
 
 [deploy]
 # ✅ Start command — Railway inject PORT tự động
